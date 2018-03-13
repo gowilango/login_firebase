@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ig login</title>
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+
+  <div id="login_div" class="main-div">
+    <h4>ig login</h4>
+   <h5>Example login:  a@a.com password</h5>
+<h5>Try with some random email and password to get error message.</h5>
+
+    <input type="email" placeholder="email" id="email_field" />
+    <input type="password" placeholder="password" id="password_field" />
+
+    <button onclick="login()">login</button>
+  </div>
+
+  <div id="user_div" class="loggedin-div">
+
+    <h4>Created using Google Firebase Authentication</h4>
+    <button onclick="logout()">logout</button>
+  
+
+  </div>
+
+
+
+  <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase.js"></script>
+  
+
+  <script src="index.js"></script>
+
+
+</body>
+</html>
